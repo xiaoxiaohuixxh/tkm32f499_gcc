@@ -1,0 +1,17 @@
+enter uart update
+Please load the bin file!
+enter usb update
+enter qpsi process...
+sum0 = FA872B79,programInfo.len = 9A4
+programInfo.add = 70020000
+programInfo.len = 9A4
+programInfo.sum = 12346789
+wait...
+
+//gcc
+enter qpsi process...
+sum0 = E11C9D71,programInfo.len = 1478
+programInfo.add = 70020000
+programInfo.len = 1478
+programInfo.sum = 12346789
+wait...
