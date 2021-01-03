@@ -523,6 +523,7 @@ void GPIO_PinAFConfig(GPIO_TypeDef* GPIOx, uint32_t GPIO_Pin, uint8_t GPIO_AF)
 		{
 			for(i=0;i<8;i++)
 			{
+			temp = GPIO_Pin>>0;
 				if(temp&0x01)
 				{
 					GPIOx->AFRL &= ~((uint32_t)0xF << ((uint32_t)(i<<2)));     //AFÅäÖÃÕ¼°ë×Ö½Ú£¬Òªx4,¼´<<2
